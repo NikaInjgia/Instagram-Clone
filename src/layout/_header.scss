@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  .container{
+    background-color: #ffffff;
+    .navbar_logo{
+      margin: 15px;
+      i{
+        font-size: 50px;
+        color: purple;
+      }
+    }
+    .navbar_search{
+      form{
+        input{
+          border: none;
+          border-radius: 10px;
+          height: 40px ;
+          width: 300px;
+          background-color: #efefef;
+        }
+      }
+    }
+    .navbar_menu{
+      img{
+        border-radius: 50%;
+      }
+      i{
+        font-size: 30px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

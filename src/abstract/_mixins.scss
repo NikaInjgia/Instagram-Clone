@@ -1,0 +1,35 @@
+.container_main{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-start{
+    justify-content: start;
+}

@@ -1,0 +1,127 @@
+.container_main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+header .container {
+  background-color: #ffffff;
+}
+header .container .navbar_logo {
+  margin: 15px;
+}
+header .container .navbar_logo i {
+  font-size: 50px;
+  color: purple;
+}
+header .container .navbar_search form input {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  background-color: #efefef;
+}
+header .container .navbar_menu img {
+  border-radius: 50%;
+}
+header .container .navbar_menu i {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.container_main {
+  background-color: #fafafa;
+}
+.container_main .post_bar .post {
+  border: 1px solid rgb(172, 172, 172);
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 600px;
+}
+.container_main .post_bar .post .user .user_right i {
+  cursor: pointer;
+  margin: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.container_main .post_bar .post .user .user_left div {
+  margin: 10px;
+}
+.container_main .post_bar .post .user .user_left div a {
+  text-decoration: none;
+  color: black;
+}
+.container_main .post_bar .post .user .user_left div img {
+  cursor: pointer;
+  border-radius: 50%;
+}
+.container_main .post_bar .post .like_share_comment div i {
+  font-size: 30px;
+  margin: 15px;
+}
+.container_main .post_bar .post .comment_bar div {
+  margin: 15px;
+}
+.container_main .post_bar .post .comment_bar div i {
+  font-size: 30px;
+}
+.container_main .post_bar .post .comment_bar div input {
+  font-size: 17px;
+  border: none;
+  width: 480px;
+}
+.container_main .post_bar .post .comment_bar div a {
+  font-size: 30px;
+  color: aqua;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
